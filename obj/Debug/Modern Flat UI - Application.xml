@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Modern Flat UI - Application
+</name>
+</assembly>
+<members>
+<member name="T:Modern_Flat_UI___Application.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.cortana_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.ezgif_2_05f5e5de209e">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.ink">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.kyd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.LogoWPS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.LogoWPSicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.logoWPSscaled">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.logoWPSscaled1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.logowpssnip">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.logowpssnip1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.logowpssnip2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.orange">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.orange_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.searchIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.show_hidden_icons">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.taskviewsmall">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.taskviewsmall1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.thm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.windowsLogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.windowsLogo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Modern_Flat_UI___Application.My.Resources.Resources.windowsLogo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
