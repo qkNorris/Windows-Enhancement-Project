@@ -1,2 +1,7 @@
-The windows operating system can be hard to navigate and understand for first time users. The goal of this project is to provide an application with various different modifications to the windows 10 operating system to make it easier to use and understand. These modifications will improve ease of use, improve visibility of running programs and system performance, and to prevent users from falling victim to malware and other unintended software installations. It can be installed on any system from company workstations to personal laptops. This program is a vision of what the default settings should be.
+Windows Enhancement Project
 
+The windows operating system can be hard to navigate and understand for first time users. The goal of this project is to provide an
+application with various different modifications to the windows 10 operating system to make it easier to use and understand.
+These modifications will improve ease of use, improve visibility of running programs and system performance, and to prevent
+ users from falling victim to malware and other unintended software installations. It can be installed on any system from
+ company workstations to personal laptops. This program is a vision of what the default settings should have been.
