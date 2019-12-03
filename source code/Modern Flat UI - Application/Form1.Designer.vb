@@ -491,9 +491,9 @@ Partial Class formMain
         Me.TextBox1.Location = New System.Drawing.Point(626, 149)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(265, 35)
+        Me.TextBox1.Size = New System.Drawing.Size(297, 35)
         Me.TextBox1.TabIndex = 1
-        Me.TextBox1.Text = "Moves desktop files into one folder"
+        Me.TextBox1.Text = "Create desktop folder to drag files into"
         '
         'undoEverything
         '
@@ -534,7 +534,7 @@ Partial Class formMain
         Me.Panel_Startup_Center.Location = New System.Drawing.Point(0, 0)
         Me.Panel_Startup_Center.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel_Startup_Center.Name = "Panel_Startup_Center"
-        Me.Panel_Startup_Center.Size = New System.Drawing.Size(1270, 681)
+        Me.Panel_Startup_Center.Size = New System.Drawing.Size(1264, 681)
         Me.Panel_Startup_Center.TabIndex = 16
         '
         'Label8
@@ -596,8 +596,8 @@ Partial Class formMain
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Controls.Add(Me.Panel_Startup_Center)
-        Me.Controls.Add(Me.Panel_Extras_Content)
         Me.Controls.Add(Me.Panel_Project_Content)
+        Me.Controls.Add(Me.Panel_Extras_Content)
         Me.Controls.Add(Me.Panel_About_Content)
         Me.Controls.Add(Me.Panel_LeftSide)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow

@@ -1,4 +1,5 @@
-﻿Imports ControlzEx.Standard
+﻿Imports System.IO
+Imports ControlzEx.Standard
 
 Public Class formMain
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label_About_Content.Click
@@ -21,9 +22,9 @@ Public Class formMain
 
 
         If My.Computer.FileSystem.FileExists("resources\doEverything.reg") Then
-            MsgBox("Resources Exist! Skipping File creation")
+
         Else
-            MsgBox("Resource Files Were Created")
+
             My.Computer.FileSystem.CreateDirectory(
   "resources")
             Dim doeverythingfile As System.IO.StreamWriter
@@ -288,6 +289,32 @@ Public Class formMain
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
+        Dim utf8WithoutBom As New System.Text.UTF8Encoding(False)
+
+        Using sink As New StreamWriter(My.Computer.FileSystem.SpecialDirectories.Desktop + "\Uninstall Programs.bat", False, utf8WithoutBom)
+            sink.Write("explorer ms-settings:appsfeatures")
+        End Using
+
+        Dim utf8WithoutBom2 As New System.Text.UTF8Encoding(False)
+
+        Using sink As New StreamWriter(My.Computer.FileSystem.SpecialDirectories.Desktop + "\Windows Update.bat", False, utf8WithoutBom2)
+            sink.Write("explorer ms-settings:windowsupdate")
+        End Using
+
+        Dim utf8WithoutBom3 As New System.Text.UTF8Encoding(False)
+
+        Using sink As New StreamWriter(My.Computer.FileSystem.SpecialDirectories.Desktop + "\Edit Startup Programs.bat", False, utf8WithoutBom3)
+            sink.Write("explorer ms-settings:startupapps")
+        End Using
+
+        Dim utf8WithoutBom4 As New System.Text.UTF8Encoding(False)
+
+        Using sink As New StreamWriter(My.Computer.FileSystem.SpecialDirectories.Desktop + "\Colors and Background.bat", False, utf8WithoutBom4)
+            sink.Write("explorer ms-settings:personalization-background")
+        End Using
+
+        MsgBox("Completed!")
+
     End Sub
 
     Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
@@ -307,5 +334,21 @@ Public Class formMain
     Private Sub DocumentationLink_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles DocumentationLink.LinkClicked
         Dim url3 As String = “https://github.com/qkNorris/Windows-Enhancement-Project/blob/master/Documentation.txt“
         Process.Start(url3)
+    End Sub
+
+    Private Sub Button1_Click_2(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim desktopFolder As String = My.Computer.FileSystem.SpecialDirectories.Desktop + "\dragFilesHere"
+
+        If System.IO.Directory.Exists(desktopFolder) = False Then
+            Try
+                System.IO.Directory.CreateDirectory(desktopFolder)
+
+            Catch ex As Exception
+                'Nothing to do
+            End Try
+        End If
+
+        MsgBox("Completed!")
+
     End Sub
 End Class
